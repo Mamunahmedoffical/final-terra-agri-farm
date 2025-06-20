@@ -611,6 +611,9 @@ p {
     margin-right: 5px;
   }
 
+  .services-left-responsive h3 {
+    margin-top: 5px;
+  }
   .services-left p {
     font-size: 14px;
   }
