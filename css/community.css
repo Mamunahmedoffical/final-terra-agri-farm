@@ -446,6 +446,17 @@ html {
     position: relative;
     left: 5%;
   }
+
+  .about-bg {
+    background: url("/images/community-bg.webp");
+    background-size: cover;
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .about-breadcrumb a {
     font-size: 10px;
   }
@@ -477,9 +488,11 @@ html {
     font-size: 12px;
     margin-bottom: 1px;
   }
-  .number1-img {
+  .number1-img img {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
   }
 
   .community-number2 {
@@ -512,6 +525,17 @@ html {
   .number1-img {
     width: 100%;
     height: 50vh;
+  }
+
+  .number1-img4 img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .number1-contener {
+    margin-bottom: 90px;
   }
 
   .community-number5 p {
@@ -668,6 +692,10 @@ html {
   .footer-content p {
     color: #ffffff;
   }
+
+  ul li span {
+    display: none;
+  }
 }
 
 @media (max-width: 360px) {
@@ -795,8 +823,15 @@ html {
 
   .number1-text2 p {
     font-size: 20px;
+    margin-top: 70px;
   }
 
+.number1-section4{
+  margin-top: 10rem;
+}
+.community-number2{
+  margin-top: 6rem;
+}
   .community-number5 p {
     font-size: 12px;
   }
@@ -827,10 +862,6 @@ html {
   }
 }
 
-
-
-
-
 /* new css for logo  */
 .logu-div {
   display: flex;
@@ -839,7 +870,6 @@ html {
 }
 .logu-div img {
   width: 50px;
-
 }
 .logu-div h4 {
   font-size: 20px;
@@ -917,9 +947,9 @@ html {
     font-size: 15px;
   } */
 
-.logu-div {
-  width: 15rem;
-}
+  .logu-div {
+    width: 15rem;
+  }
 
   .hamberger {
     transform: translateX(-15px);

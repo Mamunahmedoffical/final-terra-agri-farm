@@ -104,7 +104,6 @@ html {
 }
 .logu-div img {
   width: 50px;
-
 }
 .logu-div h4 {
   font-size: 20px;
@@ -295,6 +294,10 @@ html {
     transform: translateX(-10px);
     margin-top: 50px;
   }
+  .hamberger {
+    transform: translateX(-10px);
+    margin-top: 50px;
+  }
 
   .mobilenav ul {
     text-align: center;
@@ -304,14 +307,31 @@ html {
   }
 }
 
+@media (max-width: 360px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .about-header {
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .logu-div {
+    margin-left: 10rem;
+  }
+}
+
 /* about navbr responsive design end */
 
 /* responsive design started  */
 /* About section media quary start */
 @media (max-width: 360px) {
   .about-section {
-    max-width: 100%;
+    width: 80%;
   }
+
   .about-section h3 {
     font-weight: 400;
     font-size: 30px;
@@ -324,8 +344,9 @@ html {
   }
   .about-section p {
     text-align: start;
-    font-size: 14px;
+    font-size: 10px;
   }
+
   .about-underline::after {
     height: 2px;
   }
@@ -341,6 +362,7 @@ html {
     font-size: 14px;
     margin-top: 20px;
   }
+
   .bx-check-circle {
     text-align: start;
     transform: translateY(-16px);
@@ -362,6 +384,21 @@ html {
     font-size: 30px;
     text-align: center;
   }
+
+  .about-bg {
+    background: url("/images/about-bg.png");
+    background-size: cover;
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .about-header-nav h2 {
+    font-size: 30px;
+  }
+
   .about-section h4 {
     color: #1d4d4f;
     font-size: 18px;
@@ -392,8 +429,9 @@ html {
   }
   .footer-content p {
     color: #ffffffd7;
-    font-size: 16px;
+    font-size: 14px !important;
   }
+
   .footer-links {
     display: none;
   }
