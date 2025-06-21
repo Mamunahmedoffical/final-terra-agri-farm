@@ -243,6 +243,11 @@ html {
   }
 }
 
+
+
+
+
+
 @media (max-width: 360px) {
   .search-icon {
     display: none;
@@ -257,6 +262,7 @@ html {
   }
   .mobilenav {
     max-width: 360px;
+    
   }
 }
 /* hamberger end
@@ -1703,6 +1709,7 @@ footer {
 
   .what-we-grow-last-section {
     margin-top: 20px !important;
+
   }
 .our-community-header h2{
   margin-bottom: -80px;
@@ -2296,7 +2303,30 @@ footer {
     display: none;
   }
 
+
+
+.card, .card-2:hover{
+  box-shadow: none !important;
+}
+
   /* respomsive for about us section end  */
+
+  .last-conteiner-last{
+    font-size: 10px;
+  }
+
+.Our-Sustainability{
+  font-size: 15px;
+}
+
+.what-we-grow-last-section ul li{
+  gap: 20px;
+}
+
+.our-community-header h2{
+  margin: 20px auto;
+  font-size: 20px;
+}
 
   .footer-logo img {
     width: 90px;

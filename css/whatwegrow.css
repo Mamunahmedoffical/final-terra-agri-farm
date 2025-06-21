@@ -428,6 +428,9 @@ p {
   .services-header h2 {
     font-size: 20px;
   }
+  .services-header h2{
+    margin-bottom: 5em;
+  }
 
   .service-card {
     flex: 0 0 100%;
@@ -507,10 +510,10 @@ p {
     align-items: center;
   }
 
-.service-icon-responsive{
+  .service-icon-responsive {
     font-size: 50px !important;
     margin-top: 35px !important;
-}
+  }
 
   .slider-container {
     width: 100%;
@@ -550,10 +553,9 @@ p {
     font-size: 12px;
   }
 
-.Grain-Crops ul{
+  .Grain-Crops ul {
     display: none;
-}
-
+  }
 
   .eat-apple-section img {
     width: 100%;
